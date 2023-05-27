@@ -1,0 +1,324 @@
+nav {
+    background-color: yellowgreen;
+}
+
+nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    font-size: 18px;
+    background-color: black;
+}
+
+.main_container {
+    padding: 3px;
+    background-color: rgb(54, 21, 21);
+}
+
+.introduction {
+    background-image: url(images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    padding: 18px;
+    border-radius: 6px;
+    border-bottom-right-radius: 460px;
+    box-shadow: 0 0 5px #9287b9;
+}
+
+.introduction h3 {
+    font-family: sans-serif;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.introduction h2 {
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.introduction h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: size 20px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.introduction p,
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.introduction .btn_letsTalk {
+    background-color: yellowgreen;
+    border: none;
+    height: 24px;
+    width: 72px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 24px;
+}
+
+.introduction .btn_letsTalk:hover {
+    background-color: yellowgreen;
+    border: none;
+    height: 25px;
+    width: 73px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 24px;
+}
+
+.aboutMe {
+    background-color: rgba(165, 42, 42, 0.692);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+
+.my_pic {
+    width: 500px;
+    height: 330px;
+    background-image: url(images/web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 12px;
+}
+
+.my_info {
+    width: 500px;
+    margin: 12px;
+    height: 330px;
+    padding-left: 18px;
+    box-shadow: 0 0 10px #b4abc4;
+    border-radius: 20px;
+}
+
+.my_info h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.my_info h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.my_info p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.btns_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hireMe_btn {
+    background-color: yellowgreen;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.downloadCV_btn {
+    background-color: black;
+    border-color: yellowgreen;
+    border: 2px;
+    border: solid;
+    padding: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.myServices h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services, .myProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.services h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+}
+.services P {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services .btn {
+    background-color: yellowgreen;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 360px;
+    background-color: rgb(180, 62, 62);
+    padding: 18px;
+    margin: 6px;
+    border-radius: 18px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 10px #3a0492;
+}
+
+.cardDesign {
+    width: 360px;
+    background-image:url(images/Design_System-Blog_Header_2x.png);
+    padding: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 6px;
+    border-radius: 18px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 10px #3a0492;
+}
+
+.cardApp {
+    width: 360px;
+    background-image:url(images/droid.jpg);
+    padding: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 6px;
+    border-radius: 18px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 10px #3a0492;
+}
+
+.cardMusic{
+    width: 360px;
+    background-color: brown;
+    background-image: ;
+    padding: 18px;
+    margin: 6px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px #3a0492;
+    background-image: url(images/2b8d45b1659fa2a00639ed4e7de509a7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardTictactoe{
+    width: 360px;
+    padding: 18px;
+    margin: 6px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px #3a0492;
+    background-image: url(images/tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardWeb{
+    width: 360px;
+    background-color: brown;
+    padding: 18px;
+    margin: 6px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px #3a0492;
+    background-image: url(images/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectGallery h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projectGallery h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+}
+.projectGallery P {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projectGallery .btn {
+    background-color: yellowgreen;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(61, 70, 45, 0.733);
+    text-align: center;
+}
+
+.footerCard {
+    background-color: rgba(64, 73, 46, 0.507);
+    width: 400px;
+    padding: 24px;
+    margin: 24px;
+    box-shadow: 0 0 5px #9287b9;
+    border-radius: 6px;
+}
+
+.footerCard h4 , p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.lastDiv {
+    text-align: center;
+}
